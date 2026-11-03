@@ -1,0 +1,17 @@
+{
+  "name": "usage-gating-mongodb",
+  "version": "1.0.0",
+  "description": "Usage gating on MongoDB: read-then-write vs atomic decrement vs transaction with an idempotency key",
+  "scripts": {
+    "start": "node loop.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "mongodb": "^6.22.0",
+    "mongodb-memory-server": "^10.4.3"
+  },
+  "private": true
+}
